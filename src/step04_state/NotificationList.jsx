@@ -24,10 +24,11 @@ class NotificationList extends React.Component{
         super(props);
         // 초기화
         this.state = {
-            notifications : [],
+            notifications : []
         };
     }
     componentDidMount(){
+        console.log("여기는 리스트 실행 마운트")
         const {notifications} = this.state;
         timer = setInterval(() => {
             if (notifications.length < reservedNoti.length) {
@@ -36,11 +37,11 @@ class NotificationList extends React.Component{
                 
                 // state 변경
                 this.setState({
-                    notifications: notifications,
+                    notifications: notifications
                 });
             } else {
                 this.setState({
-                    notifications: [],
+                    notifications: []
                 });
                 clearInterval(timer);
             }
@@ -48,6 +49,7 @@ class NotificationList extends React.Component{
     }
 
     componentWillUnmount(){
+        console.log("여기는 리스트 언마운트")
         if (timer) {
             clearInterval(timer);
         }
