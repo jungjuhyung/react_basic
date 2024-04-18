@@ -3,8 +3,6 @@ import React, {Component} from "react";
 import BookListItem from "./BookListItem";
 
 class BookList extends Component{
-
-    
     render(){
         // 이렇게도 작성할 수 있다.
         // const books = this.props.books
