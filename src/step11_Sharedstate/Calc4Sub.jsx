@@ -5,7 +5,6 @@ const scaleNames = {
     f : '화씨'
 };
 
-
 function Calc4Sub(props) {
     const handleChange = (e) =>{
         props.onTemperatureChange(e.target.value);
