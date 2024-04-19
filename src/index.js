@@ -28,7 +28,14 @@ import Ex01 from './step09_list/Ex01';
 import Ex02 from './step09_list/Ex02';
 import NameForm from './step10_form/NameForm';
 import SelectForm from './step10_form/SelectForm';
-import SelectForm2 from './step10_form/SelectForm2';
+import MultiSelectForm from './step10_form/MultiSelectForm';
+import CheckBoxs from './step10_form/CheckBoxs';
+import RadioForm from './step10_form/RadioForm';
+import SignUpForm from './step10_form/SignUpForm';
+import Calc from './step11_Sharedstate/Calc';
+import Calc2 from './step11_Sharedstate/Calc2';
+import Calc3 from './step11_Sharedstate/Calc3';
+import Calc4 from './step11_Sharedstate/Calc4';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -85,7 +92,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // <Ex02/>
 // <NameForm/>
 // <SelectForm/>
-<SelectForm2/>
+// <MultiSelectForm/>
+// <CheckBoxs/>
+// <RadioForm/>
+// <SignUpForm/>
+// <Calc/>
+// <Calc2/>
+// <Calc3/>
+<Calc3/>
 )
 
 // If you want to start measuring performance in your app, pass a function

@@ -24,7 +24,6 @@ function SelectForm(props) {
                     <option value="grape">포도</option>
                     <option value="banana">바나나</option>
                     <option value="mango">망고</option>
-
                 </select>
                 
             </label>
