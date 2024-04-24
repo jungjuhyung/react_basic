@@ -64,7 +64,7 @@ function Calc3(props) {
 
     return(
         <div>
-            <TemperatureInput scale="c"  temperature = {celsius} onTemperatureChange= { handleCelsiusChange }/>
+            <TemperatureInput scale="c" temperature = {celsius} onTemperatureChange= { handleCelsiusChange }/>
             <TemperatureInput scale="f" temperature = {fahrenheit} onTemperatureChange= {handleFahrenheitChange} />
             <BoilingVerdict celsius={celsius}  />
         </div>
